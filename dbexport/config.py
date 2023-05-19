@@ -11,7 +11,6 @@ def engine(db_url=None):
     if not db_url:
         raise ValueError("Database URL is required")
 
-    print(f"Returning an engine for {db_url}")
     return create_engine(db_url)
 
 
