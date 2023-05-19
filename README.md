@@ -25,7 +25,7 @@ $ export DB_URL="postgresql://username:password@IP:PORT/reviews"
 $ product_csv.py
 ```
 
-You can also export to a JSON file called `product_ratings.csv` in this format:
+You can also export to a JSON file called `product_ratings.json` in this format:
 ``` JSON
 [
     {
